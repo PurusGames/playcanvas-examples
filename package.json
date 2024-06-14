@@ -1,0 +1,16 @@
+{
+  "name": "playcanvas-examples",
+  "type": "module",
+  "license": "UNLICENSED",
+  "author": "Purus Hai",
+  "scripts": {
+    "start": "vite serve --host --open"
+  },
+  "dependencies": {
+    "playcanvas": "1.71.5"
+  },
+  "devDependencies": {
+    "rollup-plugin-delete": "^2.0.0",
+    "vite": "^5.3.1"
+  }
+}
