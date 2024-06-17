@@ -5,9 +5,11 @@ import * as pc from "playcanvas";
 window.onload = () => {
   // ==============================CREATE APPLICATION==============================
 
-  // create a canvas element and add it to the DOM
+  // create a 800x600 canvas element and add it to the DOM
   // PlayCanvas will render to this canvas
   const canvas = document.createElement("canvas");
+  canvas.width = 600;
+  canvas.height = 300;
   document.body.appendChild(canvas);
   
   // create a PlayCanvas application with the canvas
