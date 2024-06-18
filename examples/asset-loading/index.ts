@@ -1,6 +1,6 @@
 import * as pc from "playcanvas";
 
-// We will create a simple PlayCanvas scene with a rotating box in the center of the screen
+// We will load a character model and texture and make it rotate
 
 window.onload = () => {
 

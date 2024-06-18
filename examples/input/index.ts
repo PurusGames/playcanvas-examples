@@ -1,6 +1,6 @@
 import * as pc from "playcanvas";
 
-// We will create a simple PlayCanvas scene with a rotating box in the center of the screen
+// We will create a character and rotate it using arrow keys and use the mouse to look around
 
 window.onload = () => {
 
