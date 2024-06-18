@@ -79,6 +79,6 @@ window.onload = () => {
       if (keyboard.isPressed(pc.KEY_RIGHT)) {
         characterEntity.rotate(0, rotateSpeed * dt, 0);
       }
-    })
+    });
   });
 }
